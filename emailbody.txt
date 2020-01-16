@@ -1,0 +1,6 @@
+
+Hello Mr. ${toName}
+
+	Greeting Message for You....
+	
+From ${fromName}	
