@@ -36,7 +36,7 @@ public class ContactInfoController {
 	 */
 	@RequestMapping(value = "/")
 	public String displayContactForm(Model model) {
-
+		System.out.println("WELCOME TO PHONE BOOK");
 		Contact c = new Contact();
 
 		model.addAttribute(AppConstraints.CONTACT, c);
