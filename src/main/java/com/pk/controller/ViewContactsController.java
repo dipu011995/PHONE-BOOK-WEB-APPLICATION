@@ -33,6 +33,7 @@ public class ViewContactsController {
 	@RequestMapping(value = "/editContact", method = RequestMethod.GET)
 	public String editContact(HttpServletRequest req, Model model) {
 		System.out.println("Welcome to GIT Jenkins");
+		System.out.println("Welcome to Jenkins");
 		String cid = req.getParameter("contactId");
 
 		int cnctId = 0;
